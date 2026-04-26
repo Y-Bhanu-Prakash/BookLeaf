@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./profile.css"; // Ensure you have a CSS file for styling
 
-const profile = () => {
+const Profile = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [userData, setUserData] = useState({
     name: "",
@@ -77,4 +77,4 @@ const profile = () => {
   );
 };
 
-export default profile;
+export default Profile;
