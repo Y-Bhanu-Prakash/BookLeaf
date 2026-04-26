@@ -13,7 +13,7 @@ import Signup from "./pages/Signup";
 import AboutUs from "./pages/AboutUs";
 import LendABook from "./pages/LendABook";
 import BookHistory from "./pages/BookHistory";
-import Profile from "./pages/Profile";
+import profile from "./pages/profile";
 import ContactUs from "./pages/ContactUs";
 
 // Importing Styles
@@ -32,7 +32,7 @@ const App = () => {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/lend" element={<LendABook />} />
             <Route path="/history" element={<BookHistory />} />
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/profile" element={<profile />} />
             <Route path="/contact" element={<ContactUs />} />
           </Routes>
         </div>

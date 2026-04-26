@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Profile.css"; // Ensure you have a CSS file for styling
+import "./profile.css"; // Ensure you have a CSS file for styling
 
 const profile = () => {
   const [isEditing, setIsEditing] = useState(false);
@@ -77,4 +77,4 @@ const profile = () => {
   );
 };
 
-export default Profile;
+export default profile;
