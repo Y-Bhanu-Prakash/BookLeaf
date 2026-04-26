@@ -1,0 +1,29 @@
+.footer {
+  background-color: #4e1e1e;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #ffffff;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #00bcd4; /* Light blue highlight on hover */
+}
